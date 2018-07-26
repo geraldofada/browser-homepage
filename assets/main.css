@@ -54,3 +54,13 @@ main {
     top: -8px;
     font-size: 12px;
 }
+
+#time {
+    position: absolute;
+    background-color: #f7f6f0;
+    color: #362c36;
+    padding: 3px;
+    font-size: 12px;
+    top: 20px;
+    left: 20px;
+}
