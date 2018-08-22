@@ -1,3 +1,10 @@
+function addZero(time) {
+    if (time < 10) {
+        time = "0" + time
+    }
+    return time
+}
+
 function getTime() {
     let date = new Date;
     let hour = addZero(date.getHours())
@@ -9,11 +16,5 @@ function getTime() {
     setTimeout(getTime, 1000)
 }
 
-function addZero(time) {
-    if (time < 10) {
-        time = "0" + time
-    }
-    return time
-}
-
 getTime()
+particlesJS.load('particlejs', 'config/particlesjs.json')
