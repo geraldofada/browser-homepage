@@ -1,4 +1,4 @@
-# Firefox Homepage
+# Browser Homepage
 My personal bookmark homepage
 
 <br>
